@@ -1,0 +1,15 @@
+/home/helencris/Desktop/CSharpEssencial/bin/Debug/net6.0/CSharpEssencial
+/home/helencris/Desktop/CSharpEssencial/bin/Debug/net6.0/CSharpEssencial.deps.json
+/home/helencris/Desktop/CSharpEssencial/bin/Debug/net6.0/CSharpEssencial.runtimeconfig.json
+/home/helencris/Desktop/CSharpEssencial/bin/Debug/net6.0/CSharpEssencial.dll
+/home/helencris/Desktop/CSharpEssencial/bin/Debug/net6.0/CSharpEssencial.pdb
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.csproj.AssemblyReference.cache
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.GeneratedMSBuildEditorConfig.editorconfig
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.AssemblyInfoInputs.cache
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.AssemblyInfo.cs
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.csproj.CoreCompileInputs.cache
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.dll
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/refint/CSharpEssencial.dll
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.pdb
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/CSharpEssencial.genruntimeconfig.cache
+/home/helencris/Desktop/CSharpEssencial/obj/Debug/net6.0/ref/CSharpEssencial.dll
