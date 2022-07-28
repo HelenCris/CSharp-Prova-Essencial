@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/helencris/Desktop/CSharpEssencial/CSharpEssencial.csproj": {}
+    "/home/helencris/Documents/CSharpEssencial/CSharpEssencial.csproj": {}
   },
   "projects": {
-    "/home/helencris/Desktop/CSharpEssencial/CSharpEssencial.csproj": {
+    "/home/helencris/Documents/CSharpEssencial/CSharpEssencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/helencris/Desktop/CSharpEssencial/CSharpEssencial.csproj",
+        "projectUniqueName": "/home/helencris/Documents/CSharpEssencial/CSharpEssencial.csproj",
         "projectName": "CSharpEssencial",
-        "projectPath": "/home/helencris/Desktop/CSharpEssencial/CSharpEssencial.csproj",
+        "projectPath": "/home/helencris/Documents/CSharpEssencial/CSharpEssencial.csproj",
         "packagesPath": "/home/helencris/.nuget/packages/",
-        "outputPath": "/home/helencris/Desktop/CSharpEssencial/obj/",
+        "outputPath": "/home/helencris/Documents/CSharpEssencial/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/helencris/.nuget/NuGet/NuGet.Config"
