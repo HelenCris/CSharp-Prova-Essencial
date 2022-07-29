@@ -11,7 +11,7 @@ namespace CSharpEssencial
 
             List<Person> persons = new List<Person>();
 
-            while(sair != true)
+            while(sair != false)
             {
                 Console.Write("Digite o CPF/CNPJ: ");
                 string cpfCnpj = Console.ReadLine();
