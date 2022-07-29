@@ -13,21 +13,21 @@ namespace CSharpEssencial
 
             while(sair != true)
             {
-                Console.Write("Digite o CPF/CNPJ");
+                Console.Write("Digite o CPF/CNPJ: ");
                 string cpfCnpj = Console.ReadLine();
-                Console.Write("Digite o Nome");
+                Console.Write("Digite o Nome: ");
                 string nome = Console.ReadLine();
-                Console.Write("Digite o Sobrenome");
+                Console.Write("Digite o Sobrenome: ");
                 string sobrenome = Console.ReadLine();
-                Console.Write("Digite o Logradouro");
+                Console.Write("Digite o Logradouro: ");
                 string logradouro = Console.ReadLine();
-                Console.Write("Digite o Bairro");
+                Console.Write("Digite o Bairro: ");
                 string bairro = Console.ReadLine();
-                Console.Write("Digite o Cidade");
+                Console.Write("Digite o Cidade: ");
                 string cidade = Console.ReadLine();
-                Console.Write("Digite o Estado");
+                Console.Write("Digite o Estado: ");
                 string estado = Console.ReadLine();
-                Console.Write("Digite o Telefone");
+                Console.Write("Digite o Telefone: ");
                 string telefone = Console.ReadLine();
                 
                 Person pessoa = new Person(
