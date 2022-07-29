@@ -29,5 +29,12 @@ namespace CSharpEssencial{
                 Estado = estado;
                 Telefone = telefone;
             }
+            
+        public override string ToString()
+        {
+            return "Nome Completo: " + Nome
+            + "\nEndereço Completo: " + Logradouro + "\n" + Bairro + "\n" + Cidade + "\n" + Estado
+            + "\nTelefone: " + Telefone;
+        }
     }
 }

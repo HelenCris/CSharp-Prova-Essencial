@@ -7,27 +7,27 @@ namespace CSharpEssencial
     {
         static void Main(string [] args)
         {
-            bool sair = false;
+            bool sair = true;
 
             List<Person> persons = new List<Person>();
 
-            while(sair != false)
+            while(sair == true)
             {
-                Console.Write("Digite o CPF/CNPJ: ");
+                Console.WriteLine("Digite o CPF/CNPJ");
                 string cpfCnpj = Console.ReadLine();
-                Console.Write("Digite o Nome: ");
+                Console.WriteLine("Digite o Nome");
                 string nome = Console.ReadLine();
-                Console.Write("Digite o Sobrenome: ");
+                Console.WriteLine("Digite o Sobrenome");
                 string sobrenome = Console.ReadLine();
-                Console.Write("Digite o Logradouro: ");
+                Console.WriteLine("Digite o Logradouro");
                 string logradouro = Console.ReadLine();
-                Console.Write("Digite o Bairro: ");
+                Console.WriteLine("Digite o Bairro");
                 string bairro = Console.ReadLine();
-                Console.Write("Digite o Cidade: ");
+                Console.WriteLine("Digite o Cidade");
                 string cidade = Console.ReadLine();
-                Console.Write("Digite o Estado: ");
+                Console.WriteLine("Digite o Estado");
                 string estado = Console.ReadLine();
-                Console.Write("Digite o Telefone: ");
+                Console.WriteLine("Digite o Telefone");
                 string telefone = Console.ReadLine();
                 
                 Person pessoa = new Person(
@@ -36,8 +36,12 @@ namespace CSharpEssencial
 
                 persons.Add(pessoa);
 
-                Console.Write("Deseja cadastrar mais pessoas?");
+                Console.Write("Deseja cadastrar mais pessoas? ");
                 sair = bool.Parse(Console.ReadLine());
+            }
+            foreach (Person pessoas in persons)
+            {
+                Console.WriteLine(pessoas);
             }
         }
     }
