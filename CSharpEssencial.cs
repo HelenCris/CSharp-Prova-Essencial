@@ -1,41 +1,44 @@
+using System;
+using System.Collections.Generic;
+
 namespace CSharpEssencial
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
+        static void Main(string [] args)
+        {
+            bool sair = false;
 
-      Console.WriteLine("Escreva seu nome completo:");
-      string nome = Console.ReadLine();
+            List<Person> persons = new List<Person>();
 
-      Console.WriteLine("Escreva seu endereço:");
-      string endereco = Console.ReadLine();
+            while(sair != true)
+            {
+                Console.Write("Digite o CPF/CNPJ");
+                string cpfCnpj = Console.ReadLine();
+                Console.Write("Digite o Nome");
+                string nome = Console.ReadLine();
+                Console.Write("Digite o Sobrenome");
+                string sobrenome = Console.ReadLine();
+                Console.Write("Digite o Logradouro");
+                string logradouro = Console.ReadLine();
+                Console.Write("Digite o Bairro");
+                string bairro = Console.ReadLine();
+                Console.Write("Digite o Cidade");
+                string cidade = Console.ReadLine();
+                Console.Write("Digite o Estado");
+                string estado = Console.ReadLine();
+                Console.Write("Digite o Telefone");
+                string telefone = Console.ReadLine();
+                
+                Person pessoa = new Person(
+                    cpfCnpj, nome, sobrenome, logradouro, bairro, cidade, estado, telefone
+                );
 
-      Console.WriteLine("Escreva seu bairro:");
-      string bairro = Console.ReadLine();
+                persons.Add(pessoa);
 
-      Console.WriteLine("Escreva seu telefone:");
-      string telefone = Console.ReadLine();
-
-      Console.WriteLine("Escreva seu CPF:");
-      string CPF = Console.ReadLine();
-
-      Console.WriteLine("Escreva seu CNPJ:");
-      string CNPJ = Console.ReadLine(); 
-      
-
-
-      Console.WriteLine("Carregando...");
-      Console.WriteLine("Seus dados são: ");
-      Console.WriteLine(
-        $"Nome Completo: "+ nome + "\nEndereço: " + endereco + "\nBairro: " + bairro + "\nTelefone: " + telefone + "\nCPF: " + CPF +"\nCNPJ: " + CNPJ);
-      Console.WriteLine($"Clique enter para confirmar");
-      Console.ReadLine();
-      Console.WriteLine("Cadastro efetuado!");
-
+                Console.Write("Deseja cadastrar mais pessoas?");
+                sair = bool.Parse(Console.ReadLine());
+            }
+        }
     }
-
-    
-  }
 }
-
